@@ -1,0 +1,10 @@
+2024-11-13 09:15:00,323 | WARNING | Неверный тип данных для имени объекта Runner
+Traceback (most recent call last):
+  File "F:\python\Module_12\test_12_4.py", line 25, in test_run
+    raise TypeError(f'Имя может быть толко строковым значением, передано <{type(some_runner.name).__name__}>')
+TypeError: Имя может быть толко строковым значением, передано <int>
+2024-11-13 09:15:00,324 | WARNING | Неверная скорость для Черепаха
+Traceback (most recent call last):
+  File "F:\python\Module_12\test_12_4.py", line 15, in test_walk
+    raise ValueError(f'Скорость может быть только положительным значением, текущее значение = {some_runner.speed}')
+ValueError: Скорость может быть только положительным значением, текущее значение = -10
